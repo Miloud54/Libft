@@ -1,5 +1,4 @@
 # Libft
-libft
 
 My own C library reimplementing a set of standard libc functions, along with additional utility functions. This is the first project of the 42 core curriculum.
 
