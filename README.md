@@ -8,26 +8,26 @@ My own C library reimplementing a set of standard libc functions, along with add
 
 ## 🛠️ Build
 
-\`\`\`bash
+```bash
 make          # builds the library -> libft.a
 make clean    # removes object files
 make fclean   # removes object files + the library
 make re       # fclean + make
-\`\`\`
+```
 
 ## 🚀 Usage
 
 Include the header in your source file:
 
-\`\`\`c
+```c
 #include "libft.h"
-\`\`\`
+```
 
 Compile while linking the library:
 
-\`\`\`bash
+```bash
 cc -Wall -Wextra -Werror main.c -L. -lft -o main
-\`\`\`
+```
 
 ## 📚 Implemented functions
 
@@ -98,19 +98,19 @@ cc -Wall -Wextra -Werror main.c -L. -lft -o main
 | `ft_lstmap` | Applies a function and creates a new list |
 
 To build with bonus functions:
-\`\`\`bash
+```bash
 make bonus
-\`\`\`
+```
 
 ## 📁 Project structure
 
-\`\`\`
+```
 libft/
 ├── libft.h          # Main header
 ├── Makefile
 ├── *.c              # Source files (mandatory + bonus)
 └── README.md
-\`\`\`
+```
 
 ## ✅ Norm
 
